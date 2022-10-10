@@ -36,10 +36,7 @@ pipeline {
     post {
         failure {
           echo 'Failed'
-        }
-        abort {
-          echo 'abort'  
-        }
+        }  
         success {
            echo'success' 
         }
